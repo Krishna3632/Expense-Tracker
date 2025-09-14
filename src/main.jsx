@@ -3,7 +3,7 @@ import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import './App.css'; // Assuming you have a CSS file
-import { Analytics } from "@vercel/analytics/next"
+// import { Analytics } from "@vercel/analytics/next"
 // 1. Define your routes
 // const router = createBrowserRouter([
 //   {
@@ -32,7 +32,7 @@ const rootElement = document.getElementById("root");
 // 3. Render the app
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
-    <Analytics />
+    {/* <Analytics /> */}
     <RouterProvider router={router} />
   </React.StrictMode>
 );
