@@ -6,7 +6,7 @@ function App() {
              <div>
                 <h1 className='text-3xl'>Links</h1>
                         <Link 
-          to='/form' 
+          to='/main' 
           className='text-blue-500 hover:underline'
         >
           Go to Form
