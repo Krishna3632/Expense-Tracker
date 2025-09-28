@@ -23,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/main",
     Component: React.lazy(() => import("./components/pages/MainPage"))
+  },
+  {
+    path: "/add-expense",
+    Component: React.lazy(() => import("./components/pages/AddExpense"))
   }
 ])
 
