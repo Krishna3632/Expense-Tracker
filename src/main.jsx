@@ -27,6 +27,8 @@ const router = createBrowserRouter([
   {
     path: "/add-expense",
     Component: React.lazy(() => import("./components/pages/AddExpense"))
+  },{
+    basename: "/"
   }
 ])
 
